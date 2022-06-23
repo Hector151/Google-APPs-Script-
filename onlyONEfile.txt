@@ -1,7 +1,8 @@
 function myFunction() 
 {
-  ouputExcel_ket = '1WWlSaTgRRCyaOTj9LLQ_s2CimwLMgzUSwYSK_hu6S5w'
-  inputFile_key = '1FPY1MtHBTHbbsWvTqJNqsSIMJN3MNi_y'
+  ouputExcel_ket = '1kHzKJ0c8AWtMDhSRWRH-Ix5doj5ezEn-M1ersVN_aUM'   //自行確認自己的excel ID
+  inputFile_key = '1YXtXzGfuRfcD0MLpvYjZxBA2CZ820Z_T'               //欲獲取資料的ID
+  
   var app = SpreadsheetApp.openById(ouputExcel_ket);// 想輸出的試算表金鑰
   var sheet = app.getSheets()[0];//EXCEL第一表格
   var range = sheet.getDataRange();//取得表格內容
